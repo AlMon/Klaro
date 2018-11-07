@@ -1,10 +1,11 @@
 @import url('https://fonts.googleapis.com/css?family=Frank+Ruhl+Libre:400,500,700');
-@import url('https://fonts.googleapis.com/css?family=Hind+Vadodara:400,700');
+@import url('https://fonts.googleapis.com/css?family=Hind+Vadodara:400,500,600,700');
 
 html {
     line-height: 1.15;
     -ms-text-size-adjust: 100%;
-    -webkit-text-size-adjust: 100%
+    -webkit-text-size-adjust: 100%;
+    font-family: 'Hind Vadodara', sans-serif;
 }
 
 body {
@@ -367,7 +368,7 @@ button,
 input,
 select,
 textarea {
-    font-family: "Lato", sans-serif
+    font-family: 'Hind Vadodara', sans-serif;
 }
 
 a {
@@ -1266,9 +1267,9 @@ label {
 
 .button {
     display: inline-flex;
-    font-size: 13px;
+    font-size: 14px;
     letter-spacing: 0px;
-    font-weight: 700;
+    font-weight: 600;
     line-height: 16px;
     text-transform: uppercase;
     text-decoration: none !important;
@@ -1328,61 +1329,140 @@ label {
 .button-blue,
 .button-red,
 .button-purple,
-.button-green {
+.button-green,
+.button-black {
     color: #fff !important;
     transition: background .15s ease
 }
 
 .button-blue {
     background: #2e83ef;
-    background: linear-gradient(65deg, #1274ED 0, #4992F0 100%)
+    background: linear-gradient(65deg, #1274ED 0, #4992F0 100%);
 }
 
 .button-blue:hover {
     background: #3386ef;
-    background: linear-gradient(65deg, #1777ed 0, #4e95f0 100%)
+    background: linear-gradient(65deg, #1777ed 0, #4e95f0 100%);
 }
 
 .button-blue.button-shadow::before {
-    box-shadow: 0 8px 16px rgba(131, 139, 255, 0.25)
+    box-shadow: 0 8px 16px rgba(131, 139, 255, 0.25);
 }
 
 .button-blue.button-shadow:hover::before {
-    box-shadow: 0 8px 16px rgba(131, 139, 255, 0.4)
+    box-shadow: 0 8px 16px rgba(131, 139, 255, 0.4);
 }
 
 .button-blue .button-shadow::before {
-    box-shadow: 0 4px 16px rgba(131, 139, 255, 0.25)
+    box-shadow: 0 4px 16px rgba(131, 139, 255, 0.25);
 }
 
 .button-blue .button-shadow:hover::before {
-    box-shadow: 0 4px 16px rgba(131, 139, 255, 0.4)
+    box-shadow: 0 4px 16px rgba(131, 139, 255, 0.4);
 }
 
 .button-red {
     background: #ff796a;
-    background: linear-gradient(65deg, #FF9083 0, #FF6250 100%)
+    background: linear-gradient(65deg, #FF9083 0, #FF6250 100%);
 }
 
 .button-red:hover {
     background: #ff7e6f;
-    background: linear-gradient(65deg, #ff9588 0, #ff6755 100%)
+    background: linear-gradient(65deg, #ff9588 0, #ff6755 100%);
 }
 
 .button-red.button-shadow::before {
-    box-shadow: 0 8px 16px rgba(255, 144, 131, 0.25)
+    box-shadow: 0 8px 16px rgba(255, 144, 131, 0.25);
 }
 
 .button-red.button-shadow:hover::before {
-    box-shadow: 0 8px 16px rgba(255, 144, 131, 0.4)
+    box-shadow: 0 8px 16px rgba(255, 144, 131, 0.4);
 }
 
 .button-red .button-shadow::before {
-    box-shadow: 0 4px 16px rgba(255, 144, 131, 0.25)
+    box-shadow: 0 4px 16px rgba(255, 144, 131, 0.25);
 }
 
 .button-red .button-shadow:hover::before {
-    box-shadow: 0 4px 16px rgba(255, 144, 131, 0.4)
+    box-shadow: 0 4px 16px rgba(255, 144, 131, 0.4);
+}
+
+.button-purple {
+    background: #756af8;
+    background: linear-gradient(65deg, #5E52F6 0, #8B82F9 100%);
+}
+
+.button-purple:hover {
+    background: #7a6ff8;
+    background: linear-gradient(65deg, #6357f6 0, #9087f9 100%);
+}
+
+.button-purple.button-shadow::before {
+    box-shadow: 0 8px 16px rgba(199, 131, 255, 0.25);
+}
+
+.button-purple.button-shadow:hover::before {
+    box-shadow: 0 8px 16px rgba(199, 131, 255, 0.4);
+}
+
+.button-purple .button-shadow::before {
+    box-shadow: 0 4px 16px rgba(199, 131, 255, 0.25);
+}
+
+.button-purple .button-shadow:hover::before {
+    box-shadow: 0 4px 16px rgba(199, 131, 255, 0.4);
+}
+
+.button-green {    
+    background: #00b9d2;
+    background: linear-gradient(65deg, #00A2B8 -25%, #00CFEB 100%);
+}
+
+.button-green:hover {
+    background: #00bbd5;
+    background: linear-gradient(65deg, #00a4bb -25%, #00d1ee 100%);
+}
+
+.button-green.button-shadow::before {
+    box-shadow: 0 8px 16px rgba(131, 236, 255, 0.25);
+}
+
+.button-green.button-shadow:hover::before {
+    box-shadow: 0 8px 16px rgba(131, 236, 255, 0.4);
+}
+
+.button-green .button-shadow::before {
+    box-shadow: 0 4px 16px rgba(131, 236, 255, 0.25);
+}
+
+.button-green .button-shadow:hover::before {
+    box-shadow: 0 4px 16px rgba(131, 236, 255, 0.4);
+}
+
+.button-black {    
+    background: #272829;
+    background: linear-gradient(65deg, #232526 -25%, #414345 100%);
+}
+
+.button-black:hover {
+    background: #464747;
+    background: linear-gradient(65deg, #212325 -25%, #434547 100%);
+}
+
+.button-black.button-shadow::before {
+    box-shadow: 0 8px 16px rgba(133, 132, 132, 0.25);
+}
+
+.button-black.button-shadow:hover::before {
+    box-shadow: 0 8px 16px rgba(133, 132, 132, 0.4);
+}
+
+.button-black .button-shadow::before {
+    box-shadow: 0 4px 16px rgba(133, 132, 132, 0.25);
+}
+
+.button-black .button-shadow:hover::before {
+    box-shadow: 0 4px 16px rgba(133, 132, 132, 0.4);
 }
 
 .button-block {
