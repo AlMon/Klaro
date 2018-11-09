@@ -1,7 +1,7 @@
 /*!
  * Bulma Grid (bulma.io)
  *! v0.7.2 | MIT License | github.com/jgthms/bulma *
- */
+*/
  
  @keyframes spinAround {
   from {
@@ -1598,6 +1598,12 @@
  }
 }
 
+/* Container */
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+}
 
 /* Import Google Fonts */
 
@@ -1701,6 +1707,11 @@ h6,
     transition: background .15s ease
 }
 
+.button-yellow {
+  color: #363636 !important;
+  transition: background .15s ease
+}
+
 .button-blue {
     background: #2e83ef;
     background: linear-gradient(65deg, #1274ED 0, #4992F0 100%);
@@ -1780,29 +1791,55 @@ h6,
 }
 
 .button-green {    
-    background: #00b9d2;
-    background: linear-gradient(65deg, #00A2B8 -25%, #00CFEB 100%);
+    background: #56ab2f;
+    background: linear-gradient(65deg, #56ab2f -25%, #a8e063 100%);
 }
 
 .button-green:hover {
-    background: #00bbd5;
-    background: linear-gradient(65deg, #00a4bb -25%, #00d1ee 100%);
+    background: #2fab4a;
+    background: linear-gradient(65deg, #67ab2f -25%, #aae063 100%);
 }
 
 .button-green.button-shadow::before {
-    box-shadow: 0 8px 16px rgba(131, 236, 255, 0.25);
+    box-shadow: 0 8px 16px rgba(131, 255, 152, 0.25);
 }
 
 .button-green.button-shadow:hover::before {
-    box-shadow: 0 8px 16px rgba(131, 236, 255, 0.4);
+    box-shadow: 0 8px 16px rgba(131, 255, 152, 0.4);
 }
 
 .button-green .button-shadow::before {
-    box-shadow: 0 4px 16px rgba(131, 236, 255, 0.25);
+    box-shadow: 0 4px 16px rgba(131, 255, 152, 0.25);
 }
 
 .button-green .button-shadow:hover::before {
-    box-shadow: 0 4px 16px rgba(131, 236, 255, 0.4);
+    box-shadow: 0 4px 16px rgba(131, 255, 152, 0.4);
+}
+
+.button-yellow {    
+  background: #FFE884;
+  background: linear-gradient(65deg, #FFE884 -25%, #FFF293 100%);
+}
+
+.button-yellow:hover {
+  background: #2fab4a;
+  background: linear-gradient(65deg, #fff384 -25%, rgb(255, 235, 147) 100%);
+}
+
+.button-yellow.button-shadow::before {
+  box-shadow: 0 8px 16px rgba(255, 253, 131, 0.25);
+}
+
+.button-yellow.button-shadow:hover::before {
+  box-shadow: 0 8px 16px rgba(255, 253, 131, 0.4);
+}
+
+.button-yellow .button-shadow::before {
+  box-shadow: 0 4px 16px rgba(255, 253, 131, 0.25);
+}
+
+.button-yellow .button-shadow:hover::before {
+  box-shadow: 0 4px 16px rgba(255, 253, 131, 0.4);
 }
 
 .button-black {    
