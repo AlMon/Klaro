@@ -1607,7 +1607,7 @@
 
 /* Import Google Fonts */
 
-@import url('https://fonts.googleapis.com/css?family=Frank+Ruhl+Libre:400,500,700');
+@import url('https://fonts.googleapis.com/css?family=Mukta:400,700');
 @import url('https://fonts.googleapis.com/css?family=Hind+Vadodara:400,500,600,700');
 
 /* Helpers */
@@ -1615,6 +1615,12 @@
 .text-center {
     text-align: center;
 }
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+/* Main Styles */
 
 html {
     line-height: 1.15;
@@ -1648,9 +1654,11 @@ h6,
 .h6 {
     clear: both;
     color: #202B36;
-    font-family: "Frank Ruhl Libre", serif;
+    font-family: "Mukta", sans-serif;
     font-weight: 700;
 }
+
+/* Buttons */
 
 .button {
     display: inline-flex;
@@ -1662,12 +1670,16 @@ h6,
     background-color: #fff;
     color: #4992F0 !important;
     border: none;
-    border-radius: 2px;
+    border-radius: 4px;
     cursor: pointer;
     justify-content: center;
     padding: 18px 32px;
     text-align: center;
     white-space: nowrap
+}
+
+.button-block {
+    width: 80%;
 }
 
 .button:active {
@@ -1801,19 +1813,19 @@ h6,
 }
 
 .button-green.button-shadow::before {
-    box-shadow: 0 8px 16px rgba(131, 255, 152, 0.25);
+    box-shadow: 0 8px 16px rgba(152, 255, 131, 0.25);
 }
 
 .button-green.button-shadow:hover::before {
-    box-shadow: 0 8px 16px rgba(131, 255, 152, 0.4);
+    box-shadow: 0 8px 16px rgba(152, 255, 131, 0.4);
 }
 
 .button-green .button-shadow::before {
-    box-shadow: 0 4px 16px rgba(131, 255, 152, 0.25);
+    box-shadow: 0 4px 16px rgba(152, 255, 131, 0.25);
 }
 
 .button-green .button-shadow:hover::before {
-    box-shadow: 0 4px 16px rgba(131, 255, 152, 0.4);
+    box-shadow: 0 4px 16px rgba(152, 255, 131, 0.4);
 }
 
 .button-yellow {    
