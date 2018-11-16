@@ -149,25 +149,53 @@
         <div class="columns">
             <div class="column">
                 <h2>Cards</h2>
+                <p>Cards are a way of displaying information inside a larger image. A good use for them is to create
+                    links to articles, but they can be used any way you like. As you might expect, Vitaro cards use the
+                    <span class="code">.card</span> class. If you want the text inside your card to be black, just add
+                    the <span class="code">.card-black</span> class to your div.
+                </p>
+                <p>There are additional elements that work very well within Vitaro cards. They are <span class="code">h2</span>,
+                    <span class="code">p</span>, <span class="code">small</span> as well as elements with the <span
+                        class="code">.button</span> class. They will style themselves in a visually pleasant way as
+                    shown next.
             </div>
         </div>
 
         <div class="columns">
-            <div class="column card is-half" style="background: url(/img/card-bg.jpg);">
-                <small>Category</small>
-                <h2>My Card Title</h2>
-                <div class="button button-green">Read More</div>
+            <div class="column is-half">
+                <div class="card" style="background: url(/img/card-bg.jpg);">
+                    <small>Category</small>
+                    <h2>My Card Title</h2>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Pariatur beatae maxime itaque nobis
+                        culpa earum odit, molestias provident sapiente delectus. Fugiat adipisci ea vitae et nihil
+                        minima nemo rem coptri!</p>
+                    <div class="button button-green">Read More</div>
+                </div>
             </div>
 
-            <div class="column card" style="background: url(/img/card-bg-2.jpg);">
-                <small>Category</small>
-                <h2>My Card Title</h2>
-                <div class="button button-red button-shadow">Sign Up</div>
+            <div class="column">
+                <div class="card" style="background: url(/img/card-bg-2.jpg);">
+                    <small>Category</small>
+                    <h2>My Card Title</h2>
+                    <div class="button button-red button-shadow">Sign Up</div>
+                </div>
             </div>
-            <div class="column card card-black" style="background: url(/img/card-bg-3.jpg);">
-                <small>Category</small>
-                <h2>My Card Title</h2>
-                <div class="button button-yellow">Sign Up</div>
+
+            <div class="column">
+                <div class="card card-black" style="background: url(/img/card-bg-3.jpg);">
+                    <small>Category</small>
+                    <h2>My Card Title</h2>
+                    <div class="button button-yellow">Sign Up</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="columns">
+            <div class="column">
+                <p>Cards are black by default, if you want to have a custom image as the background like in the
+                    examples shown above, you have to place an inline attribute within your div that looks like this:
+                    <span class="code">style="background: url(/my-image.jpg);"</span>. This will place the image as the
+                    background for that card.</p>
             </div>
         </div>
 
