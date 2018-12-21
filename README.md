@@ -1,2 +1,2 @@
 # Vitaro
-Yet another CSS framework.
+A flexbox-based CSS framework.
